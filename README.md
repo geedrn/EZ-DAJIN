@@ -37,8 +37,9 @@ docker run -it --rm -v $(pwd):/data -t geedrn/dajin:tensorflow /bin/bash
 git clone https://github.com/akikuno/DAJIN.git
 ./DAJIN/DAJIN -i DAJIN/example/design.txt
 # For Singularity people
+git clone https://github.com/akikuno/DAJIN.git
 singularity exec dajin_tensorflow.sif /bin/bash -c 'source activate; ./DAJIN/DAJIN -i ./DAJIN/DAJIN/example/design.txt'
 ```
 
-
-
+## Caution
+EZ-DAJIN only accepts DAJIN version more than 7.0. 
