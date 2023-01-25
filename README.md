@@ -7,6 +7,7 @@ EZ-DAJIN is a Docker image of DAJIN. No need any installation except for Docker 
 ## Citation
 PLOS BIOLOGY
 
+```
 @article{Kuno_2022,
 	title={DAJIN enables multiplex genotyping to simultaneously validate intended and unintended target genome editing outcomes},
 	volume={20},
@@ -19,6 +20,7 @@ PLOS BIOLOGY
 	month={Jan},
 	pages={e3001507}
 }
+```
 
 ## License
 The original DAJIN is under the MIT License - see the LICENSE file for details. EZ-DAJIN follows the same lisense.
@@ -42,4 +44,4 @@ singularity exec dajin_tensorflow.sif /bin/bash -c 'source activate; ./DAJIN/DAJ
 ```
 
 ## Caution
-EZ-DAJIN only accepts DAJIN version more than 7.0. 
+EZ-DAJIN only accepts DAJIN version more than 0.7.0. 
