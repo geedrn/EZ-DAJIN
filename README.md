@@ -45,7 +45,9 @@ singularity exec dajin_tensorflow.sif /bin/bash -c 'source activate; ./DAJIN/DAJ
 I recommend the users install the scripts from this repository. I made a few minor changes in the scirpts from the original codes of DAJIN for making it work both in Docker and Singularity. 
 
 -CHANGE LOG-
+```
 scr/nanosim.sh line12
+```
 
 ## Caution
 EZ-DAJIN only accepts DAJIN version more than 0.7.0. 
