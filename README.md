@@ -36,12 +36,16 @@ The code below uses the test data in the original DAJIN. Change the design.txt a
 ```
 # For Docker people
 docker run -it --rm -v $(pwd):/data -t geedrn/dajin:tensorflow /bin/bash
-git clone https://github.com/akikuno/DAJIN.git
+git clone https://github.com/geedrn/EZ-DAJIN.git
 ./DAJIN/DAJIN -i DAJIN/example/design.txt
 # For Singularity people
-git clone https://github.com/akikuno/DAJIN.git
+git clone https://github.com/geedrn/EZ-DAJIN.git
 singularity exec dajin_tensorflow.sif /bin/bash -c 'source activate; ./DAJIN/DAJIN -i ./DAJIN/DAJIN/example/design.txt'
 ```
+I recommend the users install the scripts from this repository. I made a few minor changes in the scirpts from the original codes of DAJIN for making it work both in Docker and Singularity. 
+
+-CHANGE LOG-
+scr/nanosim.sh line12
 
 ## Caution
 EZ-DAJIN only accepts DAJIN version more than 0.7.0. 
