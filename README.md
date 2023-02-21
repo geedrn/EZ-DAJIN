@@ -25,10 +25,13 @@ PLOS BIOLOGY
 ## License
 The original DAJIN is under the MIT License - see the LICENSE file for details. EZ-DAJIN follows the same lisense.
 
-## Intallation
+## Installation
 Make you own docker image from dockerfile or use the docker image on Docker hub.
 ```
+# docker
 docker pull geedrn/dajin:tensorflow
+# singularity
+singularity pull docker://geedrn/dajin:tensorflow
 ```
 
 ## Run your analysis
